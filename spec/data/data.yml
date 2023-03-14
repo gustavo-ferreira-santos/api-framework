@@ -1,0 +1,43 @@
+get_account_id:
+  Darth_Vader:
+    account_id: '630933566e9f1d5128cf4c00'
+    document: '08746219846'
+    name: 'Darth Vader'
+    amount: 0
+    bank_name: 'Caixa Economica Federal'
+    bank_ispb: '0002'
+  Luke Skywalkers:
+    account_id: '630932fc327fb162f0d8e72c'
+    document: '62179452748'
+    name: 'Luke Skywalkers'
+    amount: 60
+    bank_name: 'Caixa Economica Federal'
+    bank_ispb: '0002'
+  Candidato:
+    account_id: '62f87af90ba501353df77b95'
+    document: '41203066074'
+    name: 'Candidato'
+    amount: 45
+    bank_name: 'Caixa Economica Federal'
+    bank_ispb: '0002'
+  invalid_account_id: '12345abcd'
+  response_error: 'qrcode_not_found'
+
+pix_codes:
+  encoded_qr_code: 'MDAwMjAxMjYzMzAwMTRCUi5HT1YuQkNCLlBJWDAxMTE3MDMyNjE2NTY5MDUyMDQwMDAwNTMwMzk4NjU0MDUxMC4wMDU4MDJCUjU5MTFCdWlsZGVycyAwMTYwMDJTUDYyMTUwNTExUEFHQU1FTlRPMDE2MzA0NDMxMg=='
+  invalid_qr_code: 'xyz'
+  end_to_end: 'c74205c0-5f7b-4ee2-8fab-ef646c408fff'
+  conciliation_id: '95225008-6c6b-4310-821a-72dfe634c24e'
+  total_value: '10'
+  holder_document: '70326165690'
+  holder_name: 'Builders'
+  holder_key: '70326165690'
+  holder_key_type: 'CPF'
+  bank_name: 'Banco do Brasil'
+  bank_ispb: '0001'
+
+
+status_code:
+  OK: 200
+  NOT_FOUND: 404
+
